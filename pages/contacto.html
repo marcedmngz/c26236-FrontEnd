@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Contacto - Tienda Librería</title>
+</head>
+<body>
+    <header>
+        <div class="div-logo">
+            <a class="logo" href="../index.html">
+                <img src="../img/LOGO-LI.png" alt="Logo Tienda Libreria"/>
+            </a>
+        </div>
+
+        <nav class="header-nav">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./carrito.html">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contacto">
+            <h1 class="titulo-contacto text-secondary">Contacto</h1>
+            <form class="form-contacto" action="https://formspree.io/f/moevrpdr" method="POST">
+                <div class="grupo-input">
+                    <label for="email"> Correo: </label>
+                    <input id="email" type="email" name="email" />
+                </div>
+
+                <div class="grupo-input">
+                    <label for="mensaje"> Mensaje: </label>
+                    <textarea name="message" id="mensaje"></textarea>
+                </div>
+                <button class="btn bg-secondary text-dark" type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Sitio realizado por Marcela Dominguez para Talento Tech</p>
+        <nav>
+            <ul class="footer-list">
+                <li>
+                    <img src="../img/whatsapp.png" alt="logo whatsapp"/>
+                    <img src="../img/instagram.png" alt="logo instagram"/>
+                    <img src="../img/tiktok.png" alt="logo tiktok"/>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
